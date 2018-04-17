@@ -1,30 +1,62 @@
 import React, {Component} from 'react';
 import {render} from 'react-dom';
-import {Row,Col,DatePicker} from 'antd';
-import styles from './style.css';
-import style2 from './style2.css';
-import style3 from './style.less';
+import {Layout,Spin,Row,Col,DatePicker} from 'antd';
+import style from './style.less';
 class App extends Component{
+    constructor(props){
+        super(props);
+        this.state={
+            loading:false
+        }
+    }
+    // componentDidMount(){
+    //     this.state={
+    //                 loading:true
+    //             }
+    // }
     render (){
+        const {loading}=this.state;
+        const { Header, Content, Sider, Footer } = Layout;
+        const box={width:"100vm",height:"100vh"};
         return (
-            <div>
-                <Row>
-                    <Col span={6}>
-                        左边
-                    </Col>
-                    <Col span={6}>
-                        右边
-                    </Col>
-                    <DatePicker/>
-                </Row>
-                <h1 className={styles['h1']}>123</h1>
-                <h1 className={style2['h1']}>456</h1>
-                <div className={style3['div']}>
-                    123
-                    <p>456</p>
-
-                </div>
-            </div>
+           <Spin spinning={loading}>
+               <Layout style={box}>
+                   <Header className={style['header']}> 
+                       <span>
+                           图标区
+                       </span>
+                   </Header>
+                    <Content className={style['content']}>
+                        1<br/>
+                        1<br/>  
+                        1<br/>  
+                        1<br/>  
+                        1<br/>  
+                        1<br/>  
+                        1<br/>  1<br/>  1<br/>  1<br/>  1<br/>  1<br/>
+                        1<br/>
+                        1<br/>  
+                        1<br/>  
+                        1<br/>  
+                        1<br/>  
+                        1<br/>  
+                        1<br/>  1<br/>  1<br/>  1<br/>  1<br/>  1<br/>1<br/>
+                        1<br/>  
+                        1<br/>  
+                        1<br/>  
+                        1<br/>  
+                        1<br/>  
+                        1<br/>  1<br/>  1<br/>  1<br/>  1<br/>  1<br/>1<br/>
+                        1<br/>  
+                        1<br/>  
+                        1<br/>  
+                        1<br/>  
+                        1<br/>  
+                        1<br/>  1<br/>  1<br/>  1<br/>  1<br/>  1<br/>
+                    </Content>
+                    <Footer className={style['footer']}>foot</Footer>
+               </Layout>
+           </Spin>
         )
     }
 }
