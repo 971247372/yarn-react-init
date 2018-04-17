@@ -1,11 +1,20 @@
-const reducer=(state = 0, action)=>{
-  switch (action.type) {
-  case 'INCREMENT':
-    return state + 1;
-  case 'DECREMENT':
-    return state - 1;
-  default:
-    return state;
-  }
+//require('./actions')
+
+const initState=[{
+  user:"dd"
+}]
+const initAction={
+  type:"Done"
 }
-export default reducer;
+const reducers=(state = initState, action=initAction)=> {
+  
+  switch (action.type) {
+      
+      case '123':
+              
+          return state;
+      default:
+          return [{user:"aa"}];
+  }
+};
+export default reducers;

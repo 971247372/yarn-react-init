@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {render} from 'react-dom';
-import {Layout,Spin,Row,Col,DatePicker} from 'antd';
+import {Layout,Spin,Row,Col,DatePicker,Icon} from 'antd';
+import { Link} from 'react-router-dom';
 import style from './style.less';
 var img=require('./image/img.png');
 class App extends Component{
@@ -10,11 +11,6 @@ class App extends Component{
             loading:false
         }
     }
-    // componentDidMount(){
-    //     this.state={
-    //                 loading:true
-    //             }
-    // }
     render (){
         const {loading}=this.state;
         const { Header, Content, Sider, Footer } = Layout;
@@ -24,11 +20,15 @@ class App extends Component{
                <Layout style={box}>
                    <Header className={style['header']}> 
                        <span>
-                           图标区
+                         <Icon type="cloud" />
                        </span>
                    </Header>
                     <Content className={style['content']}>
-                        1<br/>
+                        <div>app</div>
+                        <li><Link to="/home" >Home</Link></li>
+                        <li><Link to="/detail" >Detail</Link></li>
+                        {this.props.children}
+                        {/* 1<br/>
                         1<br/>  
                         <img src={img}/>
                         1<br/>  
@@ -54,7 +54,7 @@ class App extends Component{
                         1<br/>  
                         1<br/>  
                         1<br/>  
-                        1<br/>  1<br/>  1<br/>  1<br/>  1<br/>  1<br/>
+                        1<br/>  1<br/>  1<br/>  1<br/>  1<br/>  1<br/> */}
                     </Content>
                     <Footer className={style['footer']}>foot</Footer>
                </Layout>
@@ -62,4 +62,4 @@ class App extends Component{
         )
     }
 }
-render(<App/>,root);
+export default App;

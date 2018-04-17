@@ -1,7 +1,13 @@
-import { createStore } from 'redux';
-import reducer from "../reducers/index.js";
-let store = createStore(reducer);
-store.subscribe(() =>
-  console.log(store.getState())
-);
+import {createStore,combineReducers} from 'redux';
+import reducers from "../reducers/index.js";
+import {routerReducer} from 'react-router-redux';
+
+
+const store = createStore(
+  combineReducers({
+    reducers,
+    routing: routerReducer
+  })
+)
+
 export default store;
