@@ -1,7 +1,14 @@
 import React from 'react';
 import {render} from 'react-dom';
-import Greeter from './Greeter';
+import store from './store/index.js'
+import logices from './logices/index.js' 
+import './app.global.css';
 
-import './main.css';//使用require导入css文件
+logices(store);
 
-render(<Greeter />, document.getElementById('root'));
+
+
+
+require ("./containers/App/index.js");
+
+

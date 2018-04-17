@@ -24,22 +24,58 @@ module.exports = {
               exclude: /node_modules/
           },
           {
-                test: /\.css$/,
-                use: [
-                    {
-                        loader: "style-loader"
-                    }, {
-                        loader: "css-loader",
-                        options: {
-                            modules: true, // 指定启用css modules
-                            localIdentName: '[name]__[local]--[hash:base64:5]' // 指定css的类名格式
-                        }
+            test: /\.global\.css$/,
+            use: [
+              {
+                loader: 'style-loader'
+              },
+              {
+                loader: 'css-loader',
+                options: {
+                  sourceMap: true,
+                },
+              }
+            ]
+          },
+          {
+            test: /^((?!\.global).)*\.css$/,
+            use: [
+              {
+                loader: 'style-loader'
+              },
+              {
+                loader: 'css-loader',
+                options: {
+                  modules: true,
+                  sourceMap: true,
+                  importLoaders: 1,
+                  localIdentName: '[name]__[local]__[hash:base64:5]',
+                }
+              },
+            ]
+          },
+         
+        //   {
+        //         test: /\.css$/,
+        //         use: [
+        //             {
+        //                 loader: "style-loader"
+        //             },
+                    
+        //              {
+        //                 loader: "css-loader",
+        //                 options: {
+        //                     modules: true, // 指定启用css modules
+        //                     localIdentName: '[name]__[local]--[hash:base64:5]' // 指定css的类名格式
+        //                 }
 
-                    }, {
-                        loader: "postcss-loader"
-                    }
-                ]
-            }
+        //             },
+
+        //             {
+        //                 loader: "postcss-loader"
+        //             }
+        //         ]
+        //     }
       ]
   },
   plugins: [

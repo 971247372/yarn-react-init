@@ -1,5 +1,5 @@
 {
-  "presets": ["react", "env"],
+  "presets": ["react", "env","es2015"],
   "env": {
     "development": {
     "plugins": [["react-transform", {
@@ -10,7 +10,12 @@
          
          "locals": ["module"]
        }]
-     }]]
+     }]
+    
+    ,["import", {"libraryName": "antd", "style": "css"}]
+    
+    ]
+
     }
   }
 }
