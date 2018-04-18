@@ -65,30 +65,26 @@
 import React, {Component} from 'react'
 const ReactDOM=require('react-dom');
 import { HashRouter as Router, Route, Link, Switch  } from 'react-router-dom'
-import {hashHistory} from 'react-router';
-import { homedir } from 'os';
-
-
-
-
 import store from './store/index.js'
-import {ConnectedRouter, syncHistoryWithStore } from 'react-router-redux';
+
+
+import {syncHistoryWithStore } from 'react-router-redux';
 import {createHashHistory} from 'history'
 const history = syncHistoryWithStore(createHashHistory(), store);
 import {App,Detail,Home} from './containers/index.js'
-
+import {Provider} from 'react-redux';
 
 ReactDOM.render((
-    <Router history={history}>
-        <div>
+    <Provider store={store}>
+        <Router history={history}>
             <Route path="/">
                 <App>
                     <Route path="/home" component={Home}/>
                     <Route path="/detail" component={Detail}/>
                 </App>
             </Route>
-           
-        </div>
-    </Router>
+        </Router>
+    </Provider>
+   
   ), root)
  

@@ -1,13 +1,8 @@
-import {createStore,combineReducers} from 'redux';
+import {createStore} from 'redux';
 import reducers from "../reducers/index.js";
-import {routerReducer} from 'react-router-redux';
 
+import logices from '../logices/index.js';
 
-const store = createStore(
-  combineReducers({
-    reducers,
-    routing: routerReducer
-  })
-)
-
+const store = createStore(reducers)
+//logices(store);
 export default store;
