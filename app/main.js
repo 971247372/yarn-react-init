@@ -1,4 +1,4 @@
 import './app.global.css';
-//require('./routes.js');
+require('./routes.js');
 
-require('./server/ApiClient.js')
+//require('./server/ApiClient.js')
