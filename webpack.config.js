@@ -12,8 +12,12 @@ module.exports = {
     contentBase: "./public",//本地服务器所加载的页面所在的目录
     historyApiFallback: true,//不跳转
     inline: true,//实时刷新
-    hot: true
+    hot: true,
+    port:5000
   } ,
+  node:{
+    fs:"empty"
+  },
   module: {
       rules: [
           {
