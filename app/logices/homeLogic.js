@@ -9,6 +9,8 @@ const homeBtnLogic = createLogic({
   process(e, dispatch, done) {
     console.log("logic收到数据啦")
       console.log(e)
+      dispatch(homeBtnSuccess("logic发出数据"))
+      done();
   }
 });
 

@@ -1,19 +1,17 @@
+import { handleActions } from 'redux-actions';
+import * as types from './types';
 
-const initState=[{
-    user:"dd"
-  }]
-  const initAction={
-    type:"Done"
-  }
-  const reducers=(state = initState, action=initAction)=> {
-    switch (action.type) {
-        
-        case 'home':     
-            console.log("Home 收到")  
-            return initState;
-        default:
-            return [{user:"aa"}];
+const initState={}
+const reducer = handleActions(
+  {
+    [types.HOME_BTN_SUCCESS]: (state,{payload:{data}}) => {
+      console.log("reducers收到数据啦")
+      console.log(data)
+    return {};
     }
-  };
-  export default reducers;
+},
+initState
+);
+
+  export default reducer;
   

@@ -18,7 +18,7 @@ const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__
     : compose;
 const enhancer = composeEnhancers(...enhancers);
 
-const initialState={};
+const initialState={user:[]};
 const store = createStore(reducers, initialState, enhancer);
 //logices(store);
 export  {store,history};
