@@ -1,20 +1,20 @@
 import axios from 'axios';
-import fs from 'fs';
+//import fs from 'fs';
 import path from 'path';
 import { omitBy } from 'lodash';
-import { remote } from 'electron';
-import dotenv from 'dotenv';
+//import { remote } from 'electron';
+//import dotenv from 'dotenv';
 
-const { parsed: config } = dotenv.config();
+//const { parsed: config } = dotenv.config();
 const methods = ['get', 'post', 'put', 'patch', 'delete'];
 
-const fileName = 'config.json';
-const configFilePath = path.join(remote.app.getPath('userData'), fileName);
+//const fileName = 'config.json';
+//const configFilePath = path.join(remote.app.getPath('userData'), fileName);
 
 let conf;
-if (fs.existsSync(configFilePath)) {
-  conf = JSON.parse(fs.readFileSync(configFilePath));
-}
+// if (fs.existsSync(configFilePath)) {
+//   conf = JSON.parse(fs.readFileSync(configFilePath));
+// }
 
 const api = axios.create({
   baseURL: conf ? `http://${conf.HOST}:${conf.PORT}${conf.CTX}` : 'http://120.55.44.245:8088/api'

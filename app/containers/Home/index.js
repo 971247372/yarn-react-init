@@ -20,6 +20,10 @@ class Home extends Component{
             <div>
                 <div>Home</div>
                 <div onClick={this.dwclick.bind(this)}>点我</div>
+                <br/>1<br/>1<br/>1<br/>1<br/>1<br/>1<br/>1<br/>1<br/>1<br/>1<br/>1<br/>1<br/>1<br/>1
+                <br/>1<br/>1<br/>1<br/>1<br/>1<br/>1<br/>1<br/>1<br/>1<br/>1<br/>1<br/>1<br/>1<br/>1
+                <br/>1<br/>1<br/>1<br/>1<br/>1<br/>1<br/>1<br/>1<br/>1<br/>1<br/>1<br/>1<br/>1<br/>1
+                <br/>1<br/>1<br/>1<br/>1<br/>1<br/>1<br/>1<br/>1<br/>1<br/>1<br/>1<br/>1<br/>1<br/>1
             </div>
         )
     }
@@ -27,7 +31,7 @@ class Home extends Component{
 //export default Home;
 const mapStateToProps=(state)=>{
     // console.log("state:::")
-    // console.log(state)
+     console.log(state)
     return {a:"aa",b:"bb"};
 }
 export default connect(mapStateToProps,{homeBtn})(Home)

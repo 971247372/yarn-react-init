@@ -6,9 +6,10 @@ const { home: { homeBtnSuccess } } = actions;
 
 const homeBtnLogic = createLogic({
   type: types.HOME_BTN,
-  process(e, dispatch, done) {
+  process({api,action:{payload:{params}}}, dispatch, done) {
     console.log("logic收到数据啦")
-      console.log(e)
+    console.log(api)
+      console.log(params)
       dispatch(homeBtnSuccess("logic发出数据"))
       done();
   }

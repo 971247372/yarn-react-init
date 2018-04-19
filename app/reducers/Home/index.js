@@ -7,7 +7,7 @@ const reducer = handleActions(
     [types.HOME_BTN_SUCCESS]: (state,{payload:{data}}) => {
       console.log("reducers收到数据啦")
       console.log(data)
-    return {};
+    return {"reducer":"流程结束"};
     }
 },
 initState

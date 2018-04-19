@@ -19,44 +19,19 @@ class App extends Component{
            <Spin spinning={loading}>
                <Layout style={box}>
                    <Header className={style['header']}> 
+                        <ul>
+                            <li><Link to="/home" >Home</Link></li>
+                            <li><Link to="/detail" >Detail</Link></li>
+                        </ul>
                        <span>
                          <Icon type="cloud" />
                        </span>
                    </Header>
                     <Content className={style['content']}>
-                        <div>app</div>
-                        <li><Link to="/home" >Home</Link></li>
-                        <li><Link to="/detail" >Detail</Link></li>
+                        
                         {this.props.children}
-                        {/* 1<br/>
-                        1<br/>  
-                        <img src={img}/>
-                        1<br/>  
-                        1<br/>  
-                        1<br/>  
-                        1<br/>  
-                        1<br/>  1<br/>  1<br/>  1<br/>  1<br/>  1<br/>
-                        1<br/>
-                        1<br/>  
-                        1<br/>  
-                        1<br/>  
-                        1<br/>  
-                        1<br/>  
-                        1<br/>  1<br/>  1<br/>  1<br/>  1<br/>  1<br/>1<br/>
-                        1<br/>  
-                        1<br/>  
-                        1<br/>  
-                        1<br/>  
-                        1<br/>  
-                        1<br/>  1<br/>  1<br/>  1<br/>  1<br/>  1<br/>1<br/>
-                        1<br/>  
-                        1<br/>  
-                        1<br/>  
-                        1<br/>  
-                        1<br/>  
-                        1<br/>  1<br/>  1<br/>  1<br/>  1<br/>  1<br/> */}
+                       
                     </Content>
-                    <Footer className={style['footer']}>foot</Footer>
                </Layout>
            </Spin>
         )
