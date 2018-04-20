@@ -8,8 +8,15 @@ class App extends Component{
     constructor(props){
         super(props);
         this.state={
-            loading:false
+            loading:true
         }
+    } 
+    componentDidMount(){
+        setTimeout(() => {
+            this.setState({
+                loading:false
+            })
+        }, 100);
     }
     render (){
         const {loading}=this.state;
@@ -17,22 +24,24 @@ class App extends Component{
         const box={width:"100vm",height:"100vh"};
         return (
            <Spin spinning={loading}>
-               <Layout style={box}>
-                   <Header className={style['header']}> 
-                        <ul>
-                            <li><Link to="/home" >Home</Link></li>
-                            <li><Link to="/detail" >Detail</Link></li>
-                        </ul>
-                       <span>
-                         <Icon type="cloud" />
-                       </span>
-                   </Header>
-                    <Content className={style['content']}>
-                        
-                        {this.props.children}
-                       
-                    </Content>
-               </Layout>
+               {
+                   !this.state.loading&&(
+                    <Layout style={box}>
+                    <Header className={style['header']}> 
+                         <ul>
+                             <li><Link to="/home" >Home</Link></li>
+                             <li><Link to="/detail" >Detail</Link></li>
+                         </ul>
+                        <span>
+                          <Icon type="cloud" />
+                        </span>
+                    </Header>
+                     <Content className={style['content']}>                       
+                         {this.props.children}                      
+                     </Content>
+                </Layout>
+                   )
+               }
            </Spin>
         )
     }

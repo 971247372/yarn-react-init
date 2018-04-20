@@ -58,29 +58,6 @@ module.exports = {
               },
             ]
           },
-         
-        //   {
-        //         test: /\.css$/,
-        //         use: [
-        //             {
-        //                 loader: "style-loader"
-        //             },
-                    
-        //              {
-        //                 loader: "css-loader",
-        //                 options: {
-        //                     modules: true, // 指定启用css modules
-        //                     localIdentName: '[name]__[local]--[hash:base64:5]' // 指定css的类名格式
-        //                 }
-
-        //             },
-
-        //             {
-        //                 loader: "postcss-loader"
-        //             }
-        //         ]
-        //     }
-
         {
             test: /\.global\.less$/,
             use: [
@@ -98,7 +75,6 @@ module.exports = {
               }
             ]
           },
-          // Add SASS support  - compile all other .scss files and pipe it to style.css
           {
             test: /^((?!\.global).)*\.less$/,
             use: [
@@ -119,12 +95,6 @@ module.exports = {
               }
             ]
           }
-
-
-
-
-
-
         ,
            // WOFF Font
       {
@@ -180,11 +150,6 @@ module.exports = {
         test: /\.(?:ico|gif|png|jpg|jpeg|webp)$/,
         use: 'url-loader',
       }
-
-
-
-
-
 
 
       ]

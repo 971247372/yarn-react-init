@@ -1,10 +1,11 @@
 import {createStore,applyMiddleware,compose} from 'redux';
 import reducers from "../reducers/index.js";
 import logices from '../logices/index.js';
-import { createHashHistory } from 'history';
+import { createHashHistory ,createBrowserHistory} from 'history';
 import ApiClient from '../server/ApiClient';
 
-const history = createHashHistory();
+//const history = createHashHistory();
+const history=createBrowserHistory();
 const api = new ApiClient();
 
 import { createLogicMiddleware } from 'redux-logic';
@@ -21,7 +22,7 @@ const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__
     : compose;
 const enhancer = composeEnhancers(...enhancers);
 
-const initialState={user:[]};
+const initialState={};
 const store = createStore(reducers, initialState, enhancer);
 //logices(store);
 export  {store,history};
