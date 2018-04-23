@@ -1,48 +1,69 @@
 import React, {Component} from 'react';
-import {render} from 'react-dom';
-import {Layout,Spin,Row,Col,DatePicker,Icon} from 'antd';
-import { Link} from 'react-router-dom';
-import style from './style.less';
-var img=require('./image/img.png');
+import {Router, Route, Link, Switch  } from 'react-router-dom'
+import {Spin,Layout,Row,Col } from 'antd';
+import SearchInput from './SearchInput';
+import styles from './style.less';
 class App extends Component{
     constructor(props){
         super(props);
         this.state={
-            loading:true
+            loading:false
         }
-    } 
-    componentDidMount(){
-        setTimeout(() => {
-            this.setState({
-                loading:false
-            })
-        }, 100);
     }
-    render (){
-        const {loading}=this.state;
+    render(){
+        // console.log(this.props)
+        // const {match}=this.props;
+        // console.log(match)
+        //console.log(Layout.Header)
         const { Header, Content, Sider, Footer } = Layout;
-        const box={width:"100vm",height:"100vh"};
         return (
-           <Spin spinning={loading}>
-               {
-                   !this.state.loading&&(
-                    <Layout style={box}>
-                    <Header className={style['header']}> 
-                         <ul>
-                             <li><Link to="/home" >Home</Link></li>
-                             <li><Link to="/detail" >Detail</Link></li>
-                         </ul>
-                        <span>
-                          <Icon type="cloud" />
-                        </span>
+            <Spin spinning={this.state.loading}>
+                 <Layout>
+                    <Header className={styles['header']}>
+                        <Row>
+                            <Col span={8}>
+                                <div className={styles['logo']}>
+                                    <img src="#"  alt="Logo"/>
+                                </div>
+                            </Col>
+                            <Col span={8}>
+                                <SearchInput placeholder="input search text"
+                                    onSearch={value => console.log(value)}
+                                />
+                            </Col>
+                            <Col span={8}>
+                                {/* <Link to={`${match.path}test`}>
+                                    登录
+                                </Link>|<Link to={`${match.path}test`}>
+                                    注册
+                                </Link> */}
+                            </Col>
+                        </Row>
                     </Header>
-                     <Content className={style['content']}>                       
-                         {this.props.children}                      
-                     </Content>
                 </Layout>
-                   )
-               }
-           </Spin>
+                <div>
+                     <Route path={`${match.path}test`} component={Test}/>
+                </div>
+            </Spin>
+            
+
+            //     {/* <Link to={`${match.path}test`}>
+            //         test
+            //     </Link>
+            //     <div>
+            //         <Route path={`${match.path}test`} component={Test}/>
+            //     </div> */}
+            // </div>
+        )
+    }
+}
+
+class Test extends Component{
+    render(){
+        return (
+            <div>
+                test
+            </div>
         )
     }
 }

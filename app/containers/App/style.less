@@ -1,21 +1,22 @@
+@contentHeigth:95vh;
+@logoHeight:46px;
 .header{
     position: relative;
-    color: white;
-    ul{
-        li{
-            display: inline-block;
-            width: 50px;
-            margin: 0 20px;
-        }
-    }
-    span{
-        position: absolute;
-        right: 26px;
-        top: 0;
-        
-    }
+    padding:21px 0 0 20px;
+    min-height: @logoHeight+21;
+    background-color: #f2f2f2;
 }
 .content{
-    max-height:95vh;
+    max-height:@contentHeigth;
     overflow-y: scroll;
+}
+
+
+.box{
+    background-color:#f2f2f2;
+}
+.logo{
+    width: 160px;
+    height: @logoHeight;
+    border: 1px dashed red;
 }

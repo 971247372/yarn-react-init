@@ -1,6 +1,22 @@
 import './app.global.css';
 import { isPast } from 'date-fns';
 require('./routes.js');
+//require('./route1');
+//require('./route2')
+// import BasicExample from './route2';
+// const ReactDOM=require('react-dom');
+// import React, {Component} from 'react'
+//ReactDOM.render(<BasicExample/>,root)
+
+
+
+
+
+
+
+
+
+
 
 var ua = navigator.userAgent;
 
