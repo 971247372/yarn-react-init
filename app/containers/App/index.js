@@ -16,6 +16,7 @@ class App extends Component{
         // console.log(match)
         //console.log(Layout.Header)
         const { Header, Content, Sider, Footer } = Layout;
+        const {match } =this.props;
         return (
             <Spin spinning={this.state.loading}>
                  <Layout>
