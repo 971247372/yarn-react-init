@@ -1,0 +1,14 @@
+{
+    "ignore": [
+      ".git",
+      "node_modules/**/node_modules",
+      "*.test.js"
+    ],
+    "verbose": true,
+    "watch": [
+      "src/"
+    ],
+    "env": {
+      "NODE_ENV": "development"
+    }
+  }
