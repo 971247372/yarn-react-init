@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="14px" viewBox="0 0 10 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/dark/sorting</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Ericsson-Design-System-v1.4" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g id="Dark-theme" transform="translate(-1006.000000, -128.000000)">
+            <g id="icon/dark/sorting" transform="translate(1003.000000, 127.000000)">
+                <path d="M8.0030001,1.25999999 L12.3550001,5.61299999 L11.6500001,6.31799999 L8.0030001,2.67199999 L4.3560001,6.31799999 L3.6500001,5.61299999 L8.0030001,1.25999999 Z M8.0030001,13.3047 L11.6500001,9.65769999 L12.3550001,10.3637 L8.0030001,14.7167 L3.6500001,10.3637 L4.3560001,9.65769999 L8.0030001,13.3047 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

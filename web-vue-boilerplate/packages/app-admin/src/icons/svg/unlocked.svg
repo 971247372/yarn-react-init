@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="15px" viewBox="0 0 14 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/dark/unlocked</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Ericsson-Design-System-v1.4" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g id="Dark-theme" transform="translate(-1003.000000, -159.000000)">
+            <g id="icon/dark/unlocked" transform="translate(1001.000000, 159.000000)">
+                <path d="M13,0.550100012 C14.682,0.550100012 16,1.84610001 16,3.50010001 L16,4.50010001 L15,4.50010001 L15,3.50010001 C15,2.40710001 14.122,1.55010001 13,1.55010001 C11.897,1.55010001 11,2.44810001 11,3.55010001 L11,5.50010001 L14,5.50010001 L14,14.4441 L2,14.4441 L2,5.50010001 L10,5.50010001 L10,3.55010001 C10,1.89610001 11.346,0.550100012 13,0.550100012 Z M3,13.4441 L13,13.4441 L13,6.50110001 L3,6.50110001 L3,13.4441 Z M7.5,11.4929 L7.5,8.5719 L8.5,8.5719 L8.5,11.4929 L7.5,11.4929 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

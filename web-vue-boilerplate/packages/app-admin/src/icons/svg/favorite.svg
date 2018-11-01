@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="14px" viewBox="0 0 16 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/dark/favorite</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Ericsson-Design-System-v1.4" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g id="Dark-theme" transform="translate(-1097.000000, -192.000000)">
+            <g id="icon/dark/favorite" transform="translate(1097.000000, 191.000000)">
+                <path d="M7.99900001,1 L5.73700001,5.584 L0.680000007,6.318 L4.33900001,9.886 L3.47600001,14.923 L7.99900001,12.545 L12.523,14.923 L11.659,9.886 L15.319,6.318 L10.261,5.584 L7.99900001,1 Z M7.99900001,3.26 L9.36400001,6.026 L9.59700001,6.498 L10.117,6.573 L13.17,7.017 L10.961,9.17 L10.584,9.537 L10.673,10.055 L11.195,13.096 L8.46400001,11.66 L7.99900001,11.415 L7.53400001,11.66 L4.80400001,13.096 L5.32500001,10.055 L5.41400001,9.537 L5.03700001,9.17 L2.82900001,7.017 L5.88100001,6.573 L6.40100001,6.498 L6.63400001,6.026 L7.99900001,3.26 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

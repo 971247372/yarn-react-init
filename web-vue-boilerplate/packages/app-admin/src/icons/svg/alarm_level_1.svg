@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="6px" height="6px" viewBox="0 0 6 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/dark/alarm_level_1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M8,5 C6.34325,5 5,6.34325 5,8 C5,9.65675 6.34325,11 8,11 C9.65675,11 11,9.65675 11,8 C11,6.34325 9.65675,5 8,5" id="path-1"></path>
+    </defs>
+    <g id="Ericsson-Design-System-v1.4" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g id="Dark-theme" transform="translate(-942.000000, -356.000000)">
+            <g id="icon/dark/alarm_level_1" transform="translate(937.000000, 351.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Shape" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <g id="icon/dark/comp/color_grey" mask="url(#mask-2)" fill="#767676" fill-rule="evenodd">
+                    <rect id="Rectangle" x="0" y="0" width="16" height="16"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

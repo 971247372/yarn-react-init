@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="16px" viewBox="0 0 14 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/dark/copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Ericsson-Design-System-v1.4" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g id="Dark-theme" transform="translate(-1002.000000, -255.000000)">
+            <g id="icon/dark/copy" transform="translate(1001.000000, 255.000000)">
+                <path d="M5,0 L11.654,0 L14.981,3.329 L14.981,13.307 L10.98,13.307 L10.98,16 L1,16 L1,2.694 L5,2.694 L5,0 Z M2,3.694 L2,15 L9.981,15 L9.981,13.307 L5,13.307 L5,3.694 L2,3.694 Z M6,1 L6,12.307 L13.981,12.307 L13.981,3.743 L11.239,1 L6,1 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

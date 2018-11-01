@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="10px" viewBox="0 0 17 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/dark/video</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Ericsson-Design-System-v1.4" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g id="Dark-theme" transform="translate(-1097.000000, -226.000000)">
+            <g id="icon/dark/video" transform="translate(1097.000000, 223.000000)">
+                <path d="M0,3.50031 L12.063,3.50031 L12.063,5.59231 L16.087,3.61831 L16.087,12.29331 L12.063,10.32031 L12.063,12.41231 L0,12.41231 L0,3.50031 Z M1,4.50031 L1,11.41231 L11.063,11.41231 L11.063,9.83031 L11.063,6.08231 L11.063,4.50031 L1,4.50031 Z M12.063,9.20731 L15.089,10.69031 L15.089,5.22231 L12.063,6.70531 L12.063,9.20731 Z M2.408,6.90911 L2.408,5.90811 L4.808,5.90811 L4.808,6.90911 L2.408,6.90911 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

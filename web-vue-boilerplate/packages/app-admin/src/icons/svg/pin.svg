@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/dark/pin</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Ericsson-Design-System-v1.4" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g id="Dark-theme" transform="translate(-1066.000000, -192.000000)">
+            <g id="icon/dark/pin" transform="translate(1065.000000, 191.000000)">
+                <path d="M10.883,1.70000005 L14.419,5.23700005 L10.325,9.33100005 C10.614,10.797 10.155,12.328 9.09300005,13.39 L8.73900005,13.743 L5.89400005,10.898 L2.40700005,14.384 L1.70000005,13.677 L5.18700005,10.192 L2.37500005,7.38000005 L2.72900005,7.02700005 C3.79200005,5.96300005 5.32300005,5.50500005 6.78900005,5.79400005 L10.883,1.70000005 Z M9.29200005,9.30300005 L9.21800005,9.02500005 L13.005,5.23700005 L10.883,3.11500005 L7.09600005,6.90200005 L6.81700005,6.82700005 C5.77500005,6.54500005 4.66600005,6.77000005 3.81400005,7.40600005 L8.71400005,12.304 C9.34800005,11.454 9.57000005,10.345 9.29200005,9.30300005 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

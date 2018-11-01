@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="8px" viewBox="0 0 12 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/menu_expand</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Ericsson-Design-System-v1.4" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g id="Dark-theme" transform="translate(-779.000000, -99.000000)" fill="#0082F0">
+            <g id="icon/menu_expand" transform="translate(777.000000, 95.000000)">
+                <path d="M2,4 L14,4 L14,6 L2,6 L2,4 Z M2,10 L14,10 L14,12 L2,12 L2,10 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

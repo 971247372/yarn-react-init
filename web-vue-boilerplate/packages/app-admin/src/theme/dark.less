@@ -1,0 +1,844 @@
+// dark color
+@vc-system-l0-color: #0c0c0c;
+@vc-app-l1-color: #181818;
+@vc-tile-l2-color: #242424;
+@vc-text-color: #f2f2f2;
+@vc-gray-color: #767676;
+@vc-link-blue-color: #33a3ff;
+@vc-green-color: #288964;
+@vc-yellow-color: #dcaf00;
+@vc-orange-color: #e66e19;
+@vc-red-color: #dc2d37;
+@vc-blue-color: #0082f0;
+@vc-purple-color: #8e45b0;
+
+/*
+Write your variables here. All available variables can be
+found in https://github.com/iview/iview/blob/3.x/src/styles/custom.less.
+*/
+
+@import '~iview/src/styles/index.less';
+
+// Here are the variables to cover, such as:
+// Prefix
+@css-prefix : ivu-;
+@css-prefix-iconfont : ivu-icon;
+
+// Color
+@primary-color : @vc-blue-color;
+@info-color : @vc-link-blue-color;
+@success-color : @vc-green-color;
+@warning-color : @vc-orange-color;
+@error-color : @vc-red-color;
+@link-color : @vc-link-blue-color;
+@link-hover-color : tint(@link-color, 20%);
+@link-active-color : shade(@link-color, 5%);
+@selected-color : fade(@primary-color, 90%);
+@tooltip-color : @vc-text-color;
+@subsidiary-color : @vc-gray-color;
+@rate-star-color : @vc-yellow-color;
+
+// Base
+@body-background : #fff;
+@font-family : "Ericsson Hilda","Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+@code-family : "Ericsson Hilda Mono",Consolas,Menlo,Courier,monospace;
+@title-color : @vc-text-color;
+@text-color : @vc-text-color;
+@font-size-base : 14px;
+@font-size-small : 12px;
+@line-height-base : 1.5;
+@line-height-computed : floor((@font-size-base * @line-height-base));
+@border-radius-base : 6px;
+@border-radius-small : 4px;
+@cursor-disabled : not-allowed;
+
+// Border color
+@border-color-base : #4e4e4e; // outside
+@border-color-split : #e9eaec; // inside
+
+// Background color
+@background-color-base : #fafafa; // base
+@background-color-select-hover: @input-disabled-bg;
+@tooltip-bg : @border-color-base;
+@head-bg : #f9fafc;
+@table-thead-bg : #f8f8f9;
+@table-td-stripe-bg : #2d2d2d;
+@table-td-hover-bg : @border-color-base;
+@table-td-highlight-bg : @border-color-base;
+@menu-dark-title : transparent;
+@menu-dark-active-bg : transparent;
+@menu-dark-subsidiary-color : rgba(255,255,255,.7);
+@menu-dark-group-title-color : rgba(255,255,255,.36);
+@date-picker-cell-hover-bg : #e1f0fe;
+
+// Shadow
+@shadow-color : rgba(0, 0, 0, .2);
+@shadow-base : @shadow-down;
+@shadow-card : 0 1px 1px 0 rgba(0,0,0,.1);
+@shadow-up : 0 -1px 6px @shadow-color;
+@shadow-down : 0 1px 6px @shadow-color;
+@shadow-left : -1px 0 6px @shadow-color;
+@shadow-right : 1px 0 6px @shadow-color;
+
+// Button
+@btn-font-weight : normal;
+@btn-padding-base : 6px 15px;
+@btn-padding-large : 6px 15px 7px 15px;
+@btn-padding-small : 2px 7px;
+@btn-font-size : 12px;
+@btn-font-size-large : 14px;
+@btn-border-radius : 4px;
+@btn-border-radius-small: 3px;
+@btn-group-border : shade(@primary-color, 5%);
+
+@btn-disable-color : @text-color;
+@btn-disable-bg : transparent;
+@btn-disable-border : @border-color-base;
+
+@btn-default-color : @text-color;
+@btn-default-bg : @background-color-base;
+@btn-default-border : @border-color-base;
+
+@btn-primary-color : @text-color;
+@btn-primary-bg : @primary-color;
+
+@btn-ghost-color : @text-color;
+@btn-ghost-bg : transparent;
+@btn-ghost-border : @border-color-base;
+
+@btn-circle-size : 32px;
+@btn-circle-size-large : 36px;
+@btn-circle-size-small : 24px;
+
+// Layout and Grid
+@grid-columns : 24;
+@grid-gutter-width : 0;
+@layout-body-background : #f5f7f9;
+@layout-header-background : #495060;
+@layout-header-height : 64px;
+@layout-header-padding : 0 50px;
+@layout-footer-padding : 24px 50px;
+@layout-footer-background : @layout-body-background;
+@layout-sider-background : @layout-header-background;
+@layout-trigger-height : 48px;
+@layout-trigger-color : #fff;
+@layout-zero-trigger-width : 36px;
+@layout-zero-trigger-height : 42px;
+
+// Legend
+@legend-color : #999;
+
+// Input
+@input-height-base : 32px;
+@input-height-large : 36px;
+@input-height-small : 24px;
+
+@input-padding-horizontal : 7px;
+@input-padding-vertical-base : 4px;
+@input-padding-vertical-small: 1px;
+@input-padding-vertical-large: 6px;
+
+@input-placeholder-color : rgba(242,242,242,0.6);
+@input-color : @text-color;
+@input-border-color : @border-color-base;
+@input-bg : rgba(0,0,0,0.15);
+
+@input-hover-border-color : @primary-color;
+@input-focus-border-color : @primary-color;
+@input-disabled-bg : #2d2d2d;
+
+// Tag
+@tag-font-size : 12px;
+
+// Media queries breakpoints
+// Extra small screen / phone
+@screen-xs : 480px;
+@screen-xs-min : @screen-xs;
+@screen-xs-max : (@screen-xs-min - 1);
+
+// Small screen / tablet
+@screen-sm : 768px;
+@screen-sm-min : @screen-sm;
+@screen-sm-max : (@screen-sm-min - 1);
+
+// Medium screen / desktop
+@screen-md : 992px;
+@screen-md-min : @screen-md;
+@screen-md-max : (@screen-md-min - 1);
+
+// Large screen / wide desktop
+@screen-lg : 1200px;
+@screen-lg-min : @screen-lg;
+@screen-lg-max : (@screen-lg-min - 1);
+
+// Z-index
+@zindex-spin : 8;
+@zindex-affix : 10;
+@zindex-back-top : 10;
+@zindex-select : 900;
+@zindex-modal : 1000;
+@zindex-message : 2000;
+@zindex-notification : 2000;
+@zindex-tooltip : 3000;
+@zindex-transfer : 3000;
+@zindex-loading-bar : 4000;
+@zindex-spin-fullscreen : 5000;
+
+// Animation
+@animation-time : .3s;
+@transition-time : .2s;
+@ease-in-out : ease-in-out;
+
+// Slider
+@slider-color : tint(@primary-color, 20%);
+@slider-height : 4px;
+@slider-margin : 16px 0;
+@slider-button-wrap-size : 18px;
+@slider-button-wrap-offset : -4px;
+@slider-disabled-color : #ccc;
+
+// Avatar
+@avatar-size-base: 32px;
+@avatar-size-lg: 40px;
+@avatar-size-sm: 24px;
+@avatar-font-size-base: 18px;
+@avatar-font-size-lg: 24px;
+@avatar-font-size-sm: 14px;
+@avatar-bg: #ccc;
+@avatar-color: #fff;
+@avatar-border-radius: @border-radius-small;
+
+// style overrides
+h1,
+h2,
+h3,
+h4 {
+  display: inline-block;
+  &.subtitle {
+    opacity: 0.6;
+    font-weight: normal;
+    margin-left: 8px;
+  }
+}
+
+label:not(.@{css-prefix}form-item-label):not(.@{css-prefix}radio-wrapper):not(.@{css-prefix}checkbox-wrapper) {
+  opacity: 0.6;
+}
+
+.dark {
+  background: @vc-tile-l2-color;
+
+  .@{css-prefix} {
+    // input-group
+    &input-group {
+      &-prepend,
+      &-append {
+        border-radius: 0;
+
+        .@{css-prefix}btn {
+          border-radius: 0;
+          background-color: @border-color-base;
+          border: 0;
+          margin: -6px -8px;
+
+          &.@{css-prefix}btn-primary {
+            background-color: @primary-color;
+          }
+        }
+      }
+    }
+
+    // btn
+    &btn {
+      background-color: transparent;
+      border-color: @text-color;
+
+      &.@{css-prefix}btn-primary {
+        background-color: @primary-color;
+        border-color: @primary-color;
+      }
+
+      &.@{css-prefix}btn-error {
+        background-color: @error-color;
+        border-color: @error-color;
+      }
+
+      &.@{css-prefix}btn-text {
+        padding: 0;
+        border: 0;
+        border-bottom: 1px dashed @border-color-base;
+        border-radius: 0;
+
+        &:focus {
+          box-shadow: none;
+        }
+      }
+
+      &[disabled] {
+        opacity: 0.4;
+      }
+
+      &:hover:not(:disabled):not([disabled]),
+      &.hover {
+        background-color: @text-color;
+        border-color: @text-color;
+        color: @vc-app-l1-color;
+
+        &.@{css-prefix}btn {
+          &-primary {
+            color: @text-color;
+            background-color: tint(@primary-color, 20%);
+            border-color: tint(@primary-color, 20%);
+          }
+          &-error {
+            color: @text-color;
+            background-color: tint(@error-color, 20%);
+            border-color: tint(@error-color, 20%);
+          }
+          &-text {
+            color: @text-color;
+            background-color: transparent;
+            border-bottom: 1px solid @primary-color;
+          }
+        }
+      }
+
+      &:active,
+      &.active {
+        color: @vc-app-l1-color;
+        background-color: #b5b5b5;
+        border-color: #b5b5b5;
+
+        &.@{css-prefix}btn {
+          &-primary {
+            color: @text-color;
+            background-color: shade(@primary-color, 20%);
+            border-color: shade(@primary-color, 20%);
+          }
+          &-error {
+            color: @text-color;
+            background-color: shade(@error-color, 20%);
+            border-color: shade(@error-color, 20%);
+          }
+          &-text {
+            color: @text-color;
+            background-color: transparent;
+            border-color: 1px solid @primary-color;
+          }
+        }
+      }
+    }
+
+    // form label
+    &form-label-top .@{css-prefix}form-item-label {
+      padding: 0;
+    }
+
+    // input
+    &input {
+      border-radius: 0;
+
+      &:hover:disabled,
+      &:hover[disabled] {
+        border-color: @border-color-base;
+      }
+
+      &:hover:not(:disabled):not([disabled]):not([readonly]):not(:focus),
+      &-wrapper.hover .@{css-prefix}input {
+        border-color: @vc-gray-color;
+        &::-webkit-inner-spin-button,
+        &::-webkit-outer-spin-button {
+          opacity: 1;
+        }
+      }
+
+      &:focus,
+      &-wrapper.focus .@{css-prefix}input {
+        border-color: @primary-color;
+        &::-webkit-inner-spin-button,
+        &::-webkit-outer-spin-button {
+          opacity: 1;
+        }
+      }
+
+      &[readonly],
+      &:hover[readonly],
+      &:focus[readonly] {
+        background: transparent;
+        border-color: transparent;
+        box-shadow: none;
+        padding-left: 0;
+      }
+
+      &.hkjs--dirty,
+      &-wrapper.dirty .@{css-prefix}input {
+        border-left-width: 2px;
+        border-left-style: solid;
+        border-left-color: @primary-color;
+      }
+
+      &[type='number'] {
+        width: 55px;
+      }
+
+      &-prefix i,
+      &-suffix i {
+        color: @text-color;
+      }
+    }
+    &form-item-error .@{css-prefix}input {
+      border-color: @border-color-base;
+      border-left-width: 2px;
+      border-left-style: solid;
+      border-left-color: @error-color;
+    }
+
+    &form-item-error-tip {
+      color: @text-color;
+      opacity: 0.6;
+    }
+
+    // select
+    &select {
+      &-selection {
+        background: @input-bg;
+        border-radius: 0;
+      }
+      &-arrow {
+        color: @text-color;
+      }
+
+      // select menu
+      &-dropdown {
+        background: #333;
+        border-radius: 0;
+        border: 1px solid @border-color-base;
+      }
+
+      &-item {
+        &:hover {
+          background-color: @border-color-base;
+        }
+
+        &-selected {
+          &,
+          &:hover {
+            color: @text-color;
+            background-color: @primary-color;
+          }
+        }
+      }
+    }
+
+    // date picker
+    &date-picker {
+      &-cells {
+        span em {
+          border-radius: 0;
+        }
+
+        &-focused {
+          em {
+            box-shadow: none;
+          }
+        }
+
+        &-cell {
+          &:hover em {
+            background-color: @border-color-base;
+          }
+
+          &-selected,
+          &-range {
+            em {
+              color: @text-color;
+              background-color: #333;
+              border: 0;
+              border-bottom: 2px solid @primary-color;
+              box-shadow: none;
+            }
+            &:hover em {
+              color: @text-color;
+              background-color: @border-color-base;
+            }
+          }
+
+          &-prev-month,
+          &-next-month {
+            em {
+              opacity: 0.6;
+            }
+          }
+
+          &-today&-selected {
+            em {
+              &:after {
+                background: @primary-color;
+              }
+            }
+          }
+          &-range:before {
+            background: none;
+          }
+        }
+      }
+    }
+
+    // radio
+    &radio {
+      &-inner {
+        background: transparent;
+      }
+
+      &-checked {
+        .@{css-prefix}radio-inner {
+          border-color: @border-color-base;
+        }
+        &:hover .@{css-prefix}radio-inner {
+          border-color: #bcbcbc;
+        }
+      }
+
+      &-wrapper-disabled {
+        opacity: 0.6;
+      }
+
+      &-disabled &-inner {
+        background: #2d2d2d;
+      }
+    }
+
+    // checkbox
+    &checkbox {
+      &-inner {
+        background: transparent;
+      }
+
+      &-checked,
+      &-indeterminate {
+        .@{css-prefix}checkbox-inner {
+          border-color: @border-color-base;
+          background-color: @primary-color;
+        }
+      }
+
+      &-wrapper-disabled {
+        opacity: 0.6;
+      }
+
+      &-disabled .@{css-prefix}checkbox-inner {
+        background: #2d2d2d;
+      }
+      &-disabled.@{css-prefix}checkbox-checked,
+      &-disabled.@{css-prefix}checkbox-indeterminate {
+        .@{css-prefix}checkbox-inner {
+          background: #2d2d2d;
+          border-color: #2d2d2d;
+        }
+      }
+    }
+
+    // switch
+    &switch {
+      background: transparent;
+      border-color: @border-color-base;
+
+      & + label {
+        margin-left: 5px;
+        vertical-align: middle;
+        opacity: 1 !important;
+      }
+
+      &-checked {
+        background: @primary-color;
+        border-color: @primary-color;
+      }
+
+      &-disabled {
+        border-color: #4e4e4e;
+        background: #2d2d2d;
+
+        &:after {
+          background: @vc-gray-color;
+        }
+
+        & + label {
+          opacity: 0.6 !important;
+        }
+      }
+
+      &-checked.@{css-prefix}switch-disabled {
+        border-color: #2d2d2d;
+      }
+    }
+
+    // table
+    &table {
+      background-color: transparent;
+
+      &-wrapper {
+        border: 0;
+      }
+
+      &:before {
+        background-color: @border-color-base;
+      }
+
+      &:after {
+        background: none;
+      }
+
+      th,
+      td {
+        background-color: transparent;
+      }
+
+      th {
+        border-bottom-color: @border-color-base;
+      }
+
+      td {
+        border-bottom-color: #333333;
+      }
+
+      &-wrapper[dashed] {
+        td {
+          border-bottom-style: dashed;
+        }
+      }
+
+      tr.@{css-prefix}table-row-hover {
+        td {
+          background-color: @border-color-base;
+        }
+        .@{css-prefix}checkbox-inner {
+          border-color: #bcbcbc;
+        }
+      }
+
+      &-stripe .@{css-prefix}table-body tr:nth-child(2n) td,
+      &-stripe .@{css-prefix}table-fixed-body tr:nth-child(2n) td {
+        background-color: #2d2d2d;
+      }
+
+      &-stripe .@{css-prefix}table-body tr.@{css-prefix}table-row-hover,
+      &-stripe .@{css-prefix}table-fixed-body tr.@{css-prefix}table-row-hover {
+        td {
+          background-color: @border-color-base;
+        }
+      }
+    }
+
+    // page
+    &page {
+      display: inline-block;
+      padding-top: 15px;
+      border-top: 1px solid @border-color-base;
+
+      &-item,
+      a {
+        font-family: inherit !important;
+        color: @text-color;
+      }
+
+      &-prev,
+      &-next,
+      &-item {
+        background: transparent;
+        opacity: 0.6;
+
+        &:hover:not(.@{css-prefix}page-disabled) {
+          opacity: 1;
+          color: @text-color;
+          background-color: @border-color-base;
+
+          a {
+            color: @text-color;
+          }
+        }
+      }
+
+      &-item-active {
+        border-bottom: 2px solid;
+        padding: 0 2px;
+        margin: 0;
+        opacity: 1;
+      }
+
+      &.mini .@{css-prefix}page-options {
+        margin-left: 85px;
+      }
+    }
+
+    // tooltip
+    &tooltip {
+      &-light .@{css-prefix}tooltip-inner {
+        color: @vc-tile-l2-color;
+      }
+
+      &-inner {
+        border-radius: 0;
+      }
+    }
+
+    // notice
+    &notice {
+      &-notice {
+        background: @border-color-base;
+        border-radius: 0;
+
+        &-close i {
+          color: @text-color;
+          opacity: 0.6;
+
+          &:hover {
+            color: @text-color;
+            opacity: 1;
+          }
+        }
+      }
+    }
+
+    // collapse
+    &collapse {
+      &[no-lines] {
+        border: 0;
+      }
+
+      &[no-lines] > .@{css-prefix}collapse-item {
+        border: 0;
+      }
+
+      &-simple,
+      &-content {
+        background: transparent;
+      }
+
+      & > .@{css-prefix}collapse-item > .@{css-prefix}collapse-header {
+        color: @text-color;
+        padding-left: 8px;
+        padding-right: 22px;
+      }
+
+      & > .@{css-prefix}collapse-item > .@{css-prefix}collapse-header > i {
+        transform: rotate(90deg);
+        position: absolute;
+        right: -8px;
+        top: 13px;
+      }
+
+      &
+        > .@{css-prefix}collapse-item.@{css-prefix}collapse-item-active
+        > .@{css-prefix}collapse-header
+        > i {
+        transform: rotate(270deg);
+      }
+    }
+
+    // tree
+    &tree {
+      &-title {
+        border-radius: 0;
+
+        &:hover {
+          background: @border-color-base;
+        }
+      }
+
+      &-title-selected,
+      &-title-selected:hover {
+        background-color: @primary-color;
+      }
+    }
+
+    // menu
+    &menu {
+      &-item, &-submenu {
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+      }
+      &-vertical .@{css-prefix}menu-item,
+      &-vertical .@{css-prefix}menu-submenu-title {
+        padding: 8px 24px 8px 36px;
+      }
+
+      &-vertical .@{css-prefix}menu-submenu-title-icon {
+        position: absolute;
+        top: 12px;
+        left: 16px;
+        transform: rotate(-90deg);
+      }
+      &-vertical
+        .@{css-prefix}menu-submenu-has-parent-submenu
+        .@{css-prefix}menu-submenu-title-icon {
+        left: 23px;
+      }
+
+      &-opened > * > .@{css-prefix}menu-submenu-title-icon {
+        transform: rotate(0deg);
+      }
+
+      &-dark.@{css-prefix}menu-vertical
+        .@{css-prefix}menu-item-active:not(.@{css-prefix}menu-submenu),
+      &-dark.@{css-prefix}menu-vertical
+        .@{css-prefix}menu-submenu-title-active:not(.@{css-prefix}menu-submenu) {
+        color: @text-color;
+        background: @primary-color;
+      }
+    }
+
+    // tabs
+    &tabs {
+      &-bar {
+        border: 0;
+      }
+
+      &-nav .@{css-prefix}tabs-tab {
+        color: @text-color;
+        opacity: 0.6;
+
+        &:hover {
+          color: @text-color;
+          opacity: 0.8;
+        }
+
+        &-active {
+          color: @text-color;
+          opacity: 1;
+        }
+      }
+    }
+
+    // modal
+    &modal {
+      &-content {
+        background: @vc-tile-l2-color;
+        border-radius: 0;
+      }
+      &-header,
+      &-footer {
+        border: 0;
+      }
+
+      &-close .@{css-prefix}icon-ios-close {
+        color: @text-color;
+        opacity: 0.6;
+
+        &:hover {
+          color: @text-color;
+          opacity: 1;
+        }
+      }
+    }
+
+    // layout
+    &layout {
+      background: @vc-app-l1-color;
+
+      &-sider {
+        background: transparent;
+      }
+    }
+  }
+}

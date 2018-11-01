@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/dark/collapse_fullscreen</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Ericsson-Design-System-v1.4" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g id="Dark-theme" transform="translate(-970.000000, -96.000000)">
+            <g id="icon/dark/collapse_fullscreen" transform="translate(969.000000, 95.000000)">
+                <path d="M5.99950716,5.99989286 L0.999507164,5.99989286 L0.999507164,4.99993572 L4.99950716,4.99993572 L4.99950716,1.00010714 L5.99950716,1.00010714 L5.99950716,5.99989286 Z M9.9996143,6 L9.9996143,1 L10.9995714,1 L10.9995714,5 L14.9994,5 L14.9994,6 L9.9996143,6 Z M5.99940003,10 L5.99940003,15 L4.99944288,15 L4.99944288,11 L0.999614302,11 L0.999614302,10 L5.99940003,10 Z M10,10 L14.9997857,10 L14.9997857,11 L10.9999571,11 L10.9999571,15 L10,15 L10,10 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

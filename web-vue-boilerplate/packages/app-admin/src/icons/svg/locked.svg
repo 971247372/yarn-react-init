@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="14px" viewBox="0 0 12 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/dark/locked</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Ericsson-Design-System-v1.4" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g id="Dark-theme" transform="translate(-971.000000, -160.000000)">
+            <g id="icon/dark/locked" transform="translate(969.000000, 159.000000)">
+                <path d="M11,5.5039 L14,5.5039 L14,14.4479 L2,14.4479 L2,5.5039 L5,5.5039 L5,4.4999 C5,2.8459 6.346,1.4999 8,1.4999 C9.654,1.4999 11,2.8459 11,4.4999 L11,5.5039 Z M3,13.4479 L13,13.4479 L13,6.5049 L3,6.5049 L3,13.4479 Z M6,4.4999 L6,5.5039 L10,5.5039 L10,4.4999 C10,3.3979 9.103,2.4999 8,2.4999 C6.897,2.4999 6,3.3979 6,4.4999 Z M7.5,11.4929 L7.5,8.5719 L8.5,8.5719 L8.5,11.4929 L7.5,11.4929 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="10px" viewBox="0 0 16 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/dark/mail</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Ericsson-Design-System-v1.4" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g id="Dark-theme" transform="translate(-1033.000000, -226.000000)">
+            <g id="icon/dark/mail" transform="translate(1033.000000, 223.000000)">
+                <path d="M0,13.00009 L0,3.00009 L16,3.00009 L16,13.00009 L0,13.00009 Z M15,4.63999987 L8.001002,9.64599987 L1,4.64499987 L1,12.0079999 L15,12.0079999 L15,4.63999987 Z M1.87,4.00009 L14.135,4.00009 L8.007,8.39009 L1.87,4.00009 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

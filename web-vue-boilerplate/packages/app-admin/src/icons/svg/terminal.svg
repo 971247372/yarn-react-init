@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="12px" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/dark/terminal</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Ericsson-Design-System-v1.4" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g id="Dark-theme" transform="translate(-1065.000000, -257.000000)">
+            <g id="icon/dark/terminal" transform="translate(1065.000000, 255.000000)">
+                <path d="M0,14.0034 L0,2.0004 L16,2.0004 L16,14.0034 L0,14.0034 Z M1,13.0034 L15,13.0034 L15,3.0004 L1,3.0004 L1,13.0034 Z M4.3467,11.0222 L3.6537,10.3012 L6.0387,8.0082 L3.6537,5.7142 L4.3467,4.9942 L7.4827,8.0082 L4.3467,11.0222 Z M7.505,11 L7.505,10 L11.506,10 L11.506,11 L7.505,11 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

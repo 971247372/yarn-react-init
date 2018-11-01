@@ -1,0 +1,18 @@
+{
+  "name": "@lean-bi/common",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "dependencies": {},
+  "devDependencies": {},
+  "peerDependencies": {
+    "axios": "^0.18.0",
+    "lodash": "^4.17.10"
+  }
+}

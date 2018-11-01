@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="14px" viewBox="0 0 16 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/dark/cctv</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Ericsson-Design-System-v1.4" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g id="Dark-theme" transform="translate(-1065.000000, -224.000000)">
+            <g id="icon/dark/cctv" transform="translate(1065.000000, 223.000000)">
+                <path d="M3.357,1.5001 L15.571,5.5701 L12.066,7.7061 L14.439,8.4971 L13.268,12.0121 L10.6,11.1231 L10.279,12.0881 L5.962,10.6491 L4.078,14.3071 L0,14.3071 L0,11.0581 L2.102,11.0581 L2.845,9.6121 L0.865,8.9511 L3.357,1.5001 Z M2.13,8.3181 L9.646,10.8231 L10.823,7.2921 L13.21,5.8371 L3.99,2.7651 L2.13,8.3181 Z M10.916,10.1761 L12.636,10.7491 L13.176,9.1281 L11.456,8.5541 L10.916,10.1761 Z M1,12.0581 L1,13.3071 L3.469,13.3071 L5.002,10.3301 L3.804,9.9311 L2.711,12.0581 L1,12.0581 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,22 @@
+{
+  "name": "@lean-bi/web-vue-boilerplate",
+  "private": true,
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.4",
+    "@vue/cli-plugin-eslint": "^3.0.4",
+    "@vue/eslint-config-prettier": "^3.0.4",
+    "babel-eslint": "^8.2.6",
+    "eslint": "^4.19.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.2",
+    "lerna": "^3.4.0",
+    "prettier": "^1.13.7"
+  },
+  "scripts": {
+    "bootstrap": "yarn && lerna bootstrap",
+    "dev": "npm run bootstrap && npm run dev --prefix './packages/app-admin'"
+  },
+  "engines": {
+    "node": ">=8.11"
+  }
+}

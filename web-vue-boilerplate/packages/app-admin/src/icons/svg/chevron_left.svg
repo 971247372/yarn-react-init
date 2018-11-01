@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="5px" height="10px" viewBox="0 0 5 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/dark/chevron_left</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Ericsson-Design-System-v1.4" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g id="Dark-theme" transform="translate(-1200.000000, -130.000000)" fill-rule="nonzero">
+            <g id="icon/dark/chevron_left" transform="translate(1195.000000, 127.000000)">
+                <polygon id="Path" points="6.32876823 7.99925238 9.54067246 4.32850468 8.78809577 3.67000008 5 7.99925238 8.78809577 12.3285047 9.54067246 11.6700001"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

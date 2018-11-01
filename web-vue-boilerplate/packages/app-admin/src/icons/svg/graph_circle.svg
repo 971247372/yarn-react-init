@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/dark/graph_circle</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Ericsson-Design-System-v1.4" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g id="Dark-theme" transform="translate(-874.000000, -224.000000)">
+            <g id="icon/dark/graph_circle" transform="translate(873.000000, 223.000000)">
+                <path d="M7,4.0005 L7,3.0005 C3.691,3.0005 1,5.6915 1,9.0005 C1,12.3095 3.691,15.0005 7,15.0005 C10.309,15.0005 13,12.3095 13,9.0005 L12,9.0005 C12,11.7585 9.757,14.0005 7,14.0005 C4.243,14.0005 2,11.7585 2,9.0005 C2,6.2445 4.243,4.0005 7,4.0005 M9,1.0005 C12.309,1.0005 15,3.6915 15,7.0005 L15,7.5005 L8.5,7.5005 L8.5,1.0005 L9,1.0005 Z M9.5,6.5005 L13.975,6.5005 C13.74,4.1415 11.858,2.2605 9.5,2.0235 L9.5,6.5005 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="16px" viewBox="0 0 14 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/dark/logout</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Ericsson-Design-System-v1.4" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g id="Dark-theme" transform="translate(-780.000000, -127.000000)">
+            <g id="icon/dark/logout" transform="translate(779.000000, 127.000000)">
+                <path d="M1,-1.57772181e-30 L7,-1.57772181e-30 L7,4.00500375 L6.000999,4 L6.000999,1.00075056 L1.999001,1.00075056 L1.999001,14.9992494 L6.000999,14.9992494 L6.000999,12.012009 L7,12 L7,16 L1,16 L1,-1.57772181e-30 Z M8.9533,3.3468 L9.6583,2.6408 L15.0123,7.9938 L9.6583,13.3478 L8.9533,12.6398 L13.1003,8.4928 L4.3053,8.4928 L4.3053,7.4948 L13.1003,7.4948 L8.9533,3.3468 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

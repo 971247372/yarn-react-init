@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/dark/network</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 16.003 16.003 16.003 16.003 0 0 0"></polygon>
+    </defs>
+    <g id="Ericsson-Design-System-v1.4" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g id="Dark-theme" transform="translate(-1001.000000, -223.000000)">
+            <g id="icon/dark/network" transform="translate(1001.000000, 223.000000)">
+                <path d="M14.6309,0.4486 L13.8019,1.0076 C14.5539,2.1216 14.9929,3.4646 14.9929,4.9066 C14.9929,6.3496 14.5539,7.6926 13.8019,8.8076 L14.6299,9.3656 C15.4899,8.0916 15.9929,6.5566 15.9929,4.9066 C15.9929,3.2576 15.4899,1.7226 14.6309,0.4486" id="Fill-1" fill-rule="evenodd"></path>
+                <path d="M11.7373,2.3992 C12.2193,3.1162 12.5033,3.9792 12.5033,4.9072 C12.5033,5.8352 12.2193,6.6982 11.7363,7.4152 L12.5653,7.9742 C13.1573,7.0972 13.5033,6.0422 13.5033,4.9072 C13.5033,3.7722 13.1573,2.7172 12.5653,1.8402 L11.7373,2.3992 Z" id="Fill-3" fill-rule="evenodd"></path>
+                <path d="M1.3662,0.4486 C0.5062,1.7226 0.0032,3.2576 0.0032,4.9076 C0.0032,6.5576 0.5062,8.0926 1.3662,9.3656 L2.1942,8.8076 C1.4422,7.6926 1.0032,6.3506 1.0032,4.9076 C1.0032,3.4646 1.4422,2.1226 2.1952,1.0076 L1.3662,0.4486 Z" id="Fill-5" fill-rule="evenodd"></path>
+                <path d="M3.4307,1.8406 C2.8387,2.7166 2.4937,3.7726 2.4937,4.9076 C2.4937,6.0426 2.8387,7.0976 3.4307,7.9736 L4.2597,7.4156 C3.7767,6.6976 3.4927,5.8356 3.4927,4.9076 C3.4927,3.9796 3.7767,3.1166 4.2597,2.3996 L3.4307,1.8406 Z" id="Fill-7" fill-rule="evenodd"></path>
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-10"></g>
+                <path d="M6.498,5.436 L9.498,5.436 L9.498,3.436 L6.498,3.436 L6.498,5.436 Z M8.498,0.012 L7.498,0.012 L7.498,2.436 L5.498,2.436 L5.498,6.436 L7.498,6.436 L7.498,15.992 L8.498,15.992 L8.498,6.436 L10.498,6.436 L10.498,2.436 L8.498,2.436 L8.498,0.012 Z" id="Fill-9" fill-rule="evenodd" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

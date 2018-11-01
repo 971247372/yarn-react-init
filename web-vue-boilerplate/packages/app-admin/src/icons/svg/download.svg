@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="14px" viewBox="0 0 16 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/dark/download</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Ericsson-Design-System-v1.4" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g id="Dark-theme" transform="translate(-843.000000, -128.000000)">
+            <g id="icon/dark/download" transform="translate(843.000000, 127.000000)">
+                <path d="M8.8817842e-15,15.0023 L8.8817842e-15,9.00230001 L4.00500375,9.00230001 L4,10.001301 L1.00075056,10.001301 L1.00075056,14.003299 L14.9992494,14.003299 L14.9992494,10.001301 L12.012009,10.001301 L12,9.00230001 L16,9.00230001 L16,15.0023 L8.8817842e-15,15.0023 Z M3.3468,5.648 L7.4948,9.795 L7.4948,1 L8.4928,1 L8.4928,9.795 L12.6398,5.648 L13.3478,6.353 L7.9938,11.707 L2.6408,6.353 L3.3468,5.648 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

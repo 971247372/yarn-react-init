@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="8px" viewBox="0 0 16 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/dark/core</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Ericsson-Design-System-v1.4" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g id="Dark-theme" transform="translate(-1161.000000, -195.000000)">
+            <g id="icon/dark/core" transform="translate(1161.000000, 191.000000)">
+                <path d="M4.584,5.949 C5.283,4.786 6.545,4 8.001,4 C9.458,4 10.719,4.786 11.419,5.949 L16,5.949 L16,6.949 L11.844,6.949 C11.936,7.286 12.001,7.634 12.001,8 C12.001,8.338 11.946,8.661 11.867,8.976 L16,8.976 L16,9.976 L11.46,9.976 C10.771,11.18 9.488,12 8.001,12 C6.515,12 5.232,11.18 4.543,9.976 L-8.8817842e-16,9.976 L-8.8817842e-16,8.976 L4.135,8.976 C4.056,8.661 4.001,8.338 4.001,8 C4.001,7.634 4.066,7.286 4.158,6.949 L-8.8817842e-16,6.949 L-8.8817842e-16,5.949 L4.584,5.949 Z M5,8 C5,9.654 6.346,11 8,11 C9.654,11 11,9.654 11,8 C11,6.346 9.654,5 8,5 C6.346,5 5,6.346 5,8 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

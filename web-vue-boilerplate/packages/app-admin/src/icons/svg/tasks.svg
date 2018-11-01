@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="14px" viewBox="0 0 11 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/dark/tasks</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Ericsson-Design-System-v1.4" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g id="Dark-theme" transform="translate(-1100.000000, -160.000000)">
+            <g id="icon/dark/tasks" transform="translate(1097.000000, 159.000000)">
+                <path d="M6.0285,1.5 L10.0295,1.5 L10.0295,2.5 L13.0245,2.5 L13.0245,14.5 L2.9995,14.5 L2.9995,2.5 L6.0285,2.5 L6.0285,1.5 Z M7.0285,2.5 L7.0285,3.499 L9.0295,3.499 L9.0295,2.5 L9.0295,2.499 L7.0285,2.499 L7.0285,2.5 Z M10.0295,4.499 L6.0285,4.499 L6.0285,3.5 L3.9995,3.5 L3.9995,13.499 L12.0245,13.499 L12.0245,3.5 L10.0295,3.5 L10.0295,4.499 Z M5,6.97087379 L5.005,6 L11.005,6.02912621 L11,7 L5,6.97087379 Z M5,9.47087379 L5.005,8.5 L11.005,8.52912621 L11,9.5 L5,9.47087379 Z M5,11.9708738 L5.00499584,11 L11,11.0291262 L10.9950042,12 L5,11.9708738 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

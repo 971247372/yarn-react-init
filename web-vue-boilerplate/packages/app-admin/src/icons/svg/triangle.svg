@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="15px" viewBox="0 0 16 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/dark/triangle</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 15.0312 15.706 15.0312 15.706 1.0002 0 1.0002"></polygon>
+    </defs>
+    <g id="Ericsson-Design-System-v1.4" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g id="Dark-theme" transform="translate(-873.000000, -256.000000)">
+            <g id="icon/dark/triangle" transform="translate(873.000000, 255.000000)">
+                <path d="M7.853,11.3094 C8.237,11.3094 8.549,11.6164 8.549,11.9934 C8.549,12.3714 8.237,12.6764 7.853,12.6764 C7.469,12.6764 7.157,12.3714 7.157,11.9934 C7.157,11.6164 7.469,11.3094 7.853,11.3094" id="Fill-1" fill-rule="evenodd"></path>
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-4"></g>
+                <polygon id="Fill-3" fill-rule="evenodd" mask="url(#mask-2)" points="7.353 10.2642 8.353 10.2642 8.353 6.9292 7.353 6.9292"></polygon>
+                <path d="M7.853,3.0467 L14,14.0307 L1.706,14.0307 L7.853,3.0467 Z M7.853,0.9997 L0,15.0307 L15.706,15.0307 L7.853,0.9997 Z" id="Fill-5" fill-rule="evenodd" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

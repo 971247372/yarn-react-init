@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="12px" viewBox="0 0 14 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/dark/undo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Ericsson-Design-System-v1.4" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g id="Dark-theme" transform="translate(-1260.000000, -129.000000)">
+            <g id="icon/dark/undo" transform="translate(1259.000000, 127.000000)">
+                <path d="M14.9587,8.9819 C14.9587,6.5309 12.9657,4.5389 10.5187,4.5389 L7.1017,4.5129 L8.9667,2.6479 L8.3177,1.9999 L5.3527,4.9659 L8.3177,7.9329 L8.9667,7.2849 L7.1107,5.4289 L10.5157,5.4549 C12.4597,5.4549 14.0417,7.0369 14.0417,8.9819 C14.0417,10.9249 12.4597,12.5089 10.5157,12.5089 L0.9997,12.5089 L0.9997,13.4249 L10.5157,13.4249 C12.9657,13.4249 14.9587,11.4309 14.9587,8.9819" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="12px" viewBox="0 0 14 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/dark/volume_high</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Ericsson-Design-System-v1.4" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g id="Dark-theme" transform="translate(-970.000000, -289.000000)">
+            <g id="icon/dark/volume_high" transform="translate(969.000000, 287.000000)">
+                <path d="M1.0001,4.9991 L4.0001,4.9991 L8.0001,2.0001 L8.0001,14.0001 L4.0001,10.9991 L1.0001,10.9991 L1.0001,4.9991 Z M7.0001,3.9991 L4.3331,5.9991 L2.0001,5.9991 L2.0001,9.9991 L4.3331,9.9991 L7.0001,11.9991 L7.0001,3.9991 Z M10.449,10.8973 L10.001,10.0023 C10.772,9.6153 11.25,8.8483 11.25,7.9993 C11.25,7.1503 10.772,6.3833 10.001,5.9963 L10.449,5.1023 C11.56,5.6593 12.25,6.7703 12.25,7.9993 C12.25,9.2293 11.56,10.3393 10.449,10.8973 Z M11.2342,3.532 L11.6812,2.637 C13.7282,3.662 15.0002,5.717 15.0002,7.999 C15.0002,10.281 13.7282,12.335 11.6812,13.362 L11.2332,12.467 C12.9402,11.612 14.0002,9.9 14.0002,7.999 C14.0002,6.098 12.9402,4.386 11.2342,3.532 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

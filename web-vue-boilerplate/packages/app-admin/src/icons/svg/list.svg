@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="13px" viewBox="0 0 13 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/dark/list</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Ericsson-Design-System-v1.4" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g id="Dark-theme" transform="translate(-1130.000000, -160.000000)">
+            <g id="icon/dark/list" transform="translate(1129.000000, 159.000000)">
+                <path d="M2.8482,3.04100005 L4.4792,1.20100005 L5.2282,1.86200005 L2.8922,4.50000005 L1.5002,3.10700005 L2.2072,2.39900005 L2.8482,3.04100005 Z M6,3.47087379 L6.003997,2.5 L14,2.52912621 L13.996003,3.5 L6,3.47087379 Z M2.8482,8.03780005 L4.4802,6.19780005 L5.2282,6.86180005 L2.8922,9.49680005 L1.5002,8.10480005 L2.2072,7.39780005 L2.8482,8.03780005 Z M6,8.47087379 L6.003997,7.5 L14,7.52815534 L13.996003,8.5 L6,8.47087379 Z M2,13.4718173 L2.01390268,12.5 L4,12.5281827 L3.98609732,13.5 L2,13.4718173 Z M6,13.4718173 L6.003997,12.5 L14,12.5281827 L13.996003,13.5 L6,13.4718173 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
